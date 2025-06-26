@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/ef6aec1100.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+        body {
+            font-family: "DM Sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-[#301900] gap-4 grid grid-cols-2 lg:grid-cols-4 px-4 lg:px-28 lg:py-4 py-2 text-white">
+        <div class="flex items-center gap-2">
+            <img class="h-5 w-5" src="./img/baner-icon.svg" alt="">
+            <h2 class="font-bold lg:text-base text-[10px]">AUS ÖSTERREICH</h2>
+        </div>
+        <div class="flex items-center gap-2">
+            <i class="fa-solid fa-dollar-sign text-xl"></i>
+            <h2 class="font-bold lg:text-base text-[10px]">BIS ZU 60% GÜNSTIGER</h2>
+        </div>
+        <div class="lg:flex hidden items-center gap-3">
+            <i class="fa-solid fa-scroll"></i>
+            <h2 class="font-bold">JEDERZEIT KÜNDBAR</h2>
+        </div>
+        <div class="lg:flex hidden items-center gap-3">
+            <i class="fa-solid fa-user"></i>
+            <h2 class="font-bold">40.000+ KUNDEN</h2>
+        </div>
+    </div>
+    
+
+<nav class="bg-[#FAF4EB] border-[#FAC800]">
+  <div class="lg:flex block justify-between items-center mx-auto px-10 p-4">
+   <div class="flex items-center justify-between">
+     <a href="#" class="flex items-center">
+        <img src="./img/logo.svg" />
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button> 
+   </div>
+    <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 lg:p-0 mt-4 lg:flex-row gap-5">
+        <li>
+          <a href="#" class="block py-2 px-3  rounded-sm " aria-current="page">FUNKTIONEN</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 rounded-sm">PREISE</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 rounded-sm">REVIEWS</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 rounded-sm">VERGLEICH</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 rounded-sm">FAQ</a>
+        </li>
+          <li>
+          <a href="#" class="block py-2 px-3 rounded-sm">Beratung Vereinbaren</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+</body>
+
+</html>  
